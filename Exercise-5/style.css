@@ -1,0 +1,227 @@
+.menu {
+  background-color: #000;
+}
+
+.menu .menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu .menu-list .menu-item a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+  display: inline-block;
+}
+
+.menu .menu-list .menu-item a:hover {
+  color: #ff0000;
+}
+
+/* SLIDER  */
+.slider {
+  background-image: url("./images/slider_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+}
+
+/* PRODUCT INTRO  */
+.product-intro .branch-name {
+  color: #ff0000;
+  text-transform: uppercase;
+}
+.product-content {
+  display: flex;
+}
+.content-left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.content-left img:first-child {
+      width: 49%;
+    padding-bottom: 4px;
+    margin-right: 12px;
+}
+.content-left img:nth-child(2) {
+  width: 49%;
+    padding-bottom: 4px;
+}
+
+.content-left img:last-child {
+  width: 100%;
+  padding-top: 4px;
+}
+.content-right {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.content-right .img-top {
+  width: 100%;
+  padding-left: 8px;
+  padding-bottom: 4px;
+}
+.content-right .img-bottom {
+  width: 100%;
+  padding-left: 8px;
+  padding-top: 4px;
+}
+
+/* .img {
+  display: flex;
+}
+
+.nhatam {
+  width: 49%;
+  height: 35%;
+}
+
+.sofa {
+  width: 49%;
+  height: 35%;
+  margin: 0px 2px;
+}
+.phongkhach {
+  width: 100%;
+  height: 50%;
+}
+.vanphong {
+      width: 100%;
+    height: 45.5%;
+
+}
+.noithat{
+    width: 99%;
+} */
+
+/* PRODUCT ADVERTISING */
+.product-advertising {
+  display: flex;
+}
+
+.title {
+  text-align: center;
+}
+
+.stt {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.gioithieu1 {
+  font-height: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.gioithieu2 {
+  font-height: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.gioithieu3 {
+  font-height: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.gioithieu4 {
+  font-height: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.gioithieu5 {
+  font-height: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 3px;
+  line-height: 55px;
+  padding: 3px;
+  font-size: 13px;
+}
+/* .product-advertising .SF0013 .button a:hover{
+    background-color: chartreuse;
+    color: #000;
+    transition: background-color 0,3s;
+    
+} */
+.SF0013 {
+  padding-left: 7px;
+  padding-right: 9px;
+}
+/* SLIDER */
+
+.slider1 {
+  display: flex;
+  padding-top: 17px;
+  font-size: 13px;
+  margin: 0px 119px;
+  text-align: center;
+}
+.slider-img{
+  position: relative;
+}
+.img-nature {
+  width: 100%;
+  height: 100%;
+}
+.img-sale {
+    position: absolute;
+    right: 741px;
+    top: 136px;
+    width: 222px;
+    height: auto;
+    border-radius: 74px;
+    opacity: 0.5;
+}
+.dichvu1 {
+  padding: 0;
+  font-size: 15px;
+}
+.dichvu2 {
+  margin: 0;
+  padding: 0px 28px;
+  text-align: center;
+}
+.dichvu3 {
+  margin: 0;
+  padding: 0;
+}
+.dichvu4 {
+  margin: 0;
+  padding: 0;
+}
+.dichvu5 {
+  margin: 0;
+  padding: 0;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.lorem {
+  margin: 0px;
+  padding-bottom: 1%;
+}
+.interior {
+  margin-bottom: 0.3%;
+  margin-top: 0%;
+  padding-top: 1.5%;
+  font-weight: bold;
+  font-size: 22px;
+}

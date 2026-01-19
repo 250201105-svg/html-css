@@ -1,0 +1,199 @@
+/*GENERAL*/
+* {
+  box-sizing: border-box;
+}
+
+/* MENU */
+.menu {
+  background-color: #000;
+}
+
+.menu .menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu .menu-list .menu-item a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+  display: inline-block;
+}
+
+.menu .menu-list .menu-item a:hover {
+  color: #ff0000;
+}
+
+/* SLIDER  */
+.slider {
+  background-image: url("./images/slider_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+}
+
+/* PRODUCT INTRO  */
+.product-intro .branch-name {
+  color: #ff0000;
+  text-transform: uppercase;
+}
+
+.product-intro .product-content {
+  display: flex;
+}
+
+.product-intro .product-content .content-left,
+.product-intro .product-content .content-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.product-intro .product-content .content-left {
+  padding-right: 15px;
+}
+
+.product-intro .product-content .content-left img:first-child {
+  width: 50%;
+  padding: 0 7px 7px 0;
+}
+
+.product-intro .product-content .content-left img:nth-child(2) {
+  width: 50%;
+  padding: 0 0 7px 7px;
+}
+
+.product-intro .product-content .content-left img:last-child {
+  width: 100%;
+  padding-top: 7px;
+}
+
+.product-intro .product-content .content-right {
+  padding-left: 15px;
+}
+
+.product-intro .product-content .content-right img:first-child {
+  width: 100%;
+  padding-bottom: 7px;
+}
+
+.product-intro .product-content .content-right img:last-child {
+  width: 100%;
+  padding-top: 7px;
+}
+
+/* PRODUCT ADVERTISING */
+.product-advertising {
+  padding: 50px 0 80px;
+}
+
+.product-advertising .title {
+  text-align: center;
+  font-weight: 500;
+}
+
+.product-advertising .product-list {
+  display: flex;
+  gap: 15px;
+}
+
+.product-advertising .product-list .product-item img {
+  width: 100%;
+}
+
+.product-advertising .product-list .product-item .product-code {
+  margin: 15px 0;
+}
+
+.product-advertising .product-list .product-item .button {
+  display: inline-block;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 7px;
+  min-width: 60px;
+}
+
+/* PRODUCT SALE */
+.product-sale {
+  background-image: url("./images/nature.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  position: relative;
+}
+
+.product-sale .product-content {
+  background-color: #ff00005e;
+  color: #fff;
+
+  position: absolute;
+  right: 741px;
+  top: 136px;
+
+  width: 222px;
+  height: 222px;
+
+  border-radius: 50%;
+  display: flex;
+
+  flex-flow: column;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.product-sale .product-content .discount {
+  font-size: 50px;
+  margin: 0;
+}
+
+/* SERVICE */
+.product-service {
+  padding: 20px 0;
+}
+
+.product-service .service-list {
+  display: flex;
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-service .service-item {
+  text-align: center;
+}
+
+.product-service .service-item .service-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.product-service .service-item .service-description {
+  margin: 5px 0;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0;
+}
+
+.footer-description a {
+  text-decoration: none;
+  color: #fff;
+}

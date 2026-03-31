@@ -4,8 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercise-6</title>
+    <!-- Font Family -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   </head>
+  
   <body>
     <!-- MENU  -->
     <nav class="menu">
@@ -26,9 +42,11 @@
 
     <!-- SLIDER -->
     <section class="slider">
-      <h1 class="slider-title">Best Bake Here</h1>
-      <p class="text">Donec at massa nec sem eleifend fermentum.</p>
-      <a href="#" class="buton">LEARN MORE</a>
+      <div class="slider-item">
+        <h1 class="slider-title">Best Bake Here</h1>
+        <p class="text">Donec at massa nec sem eleifend fermentum.</p>
+        <a href="#" class="button">LEARN MORE</a>
+      </div>
     </section>
     <!-- FEATURES -->
     <section class="features">
@@ -111,50 +129,49 @@
     </section>
     <!-- SERVICES -->
     <section class="services">
-      <div class="services-img"></div>
-      <div><h1 class="services-title">OUR SERVICES</h1></div>
+      <h2 class="services-title">OUR SERVICES</h2>
       <div class="services-list">
         <div class="services-item">
           <div class="services-content">
             <div class="services-icon">
-              <img class="icon" src="./images/images.png" alt="icon" />
+              <i class="fas fa-adjust services-icon"></i>
               <p class="services-name">Tasty Cakes</p>
               <p class="services-text">
                 delectus reiciendis maiores alias consequatur aut.maiores alias
               </p>
-              <p class="buton"><a href="#">Learn more</a></p>
+              <a href="#" class="button">Learn more</a>
             </div>
           </div>
 
           <div class="services-content">
             <div class="services-icon">
-              <img class="icon" src="./images/images (1).png" alt="icon" />
+              <i class="fas fa-snowflake services-icon"></i>
               <p class="services-name">Tasty Cakes</p>
               <p class="services-text">
                 delectus reiciendis maiores alias consequatur aut.maiores alias
               </p>
-              <p class="buton"><a href="#">Learn more</a></p>
+              <a href="#" class="button">Learn more</a>
             </div>
           </div>
 
           <div class="services-content">
             <div class="services-icon">
-              <img class="icon" src="./images/image(2).png" alt="icon" />
+              <i class="fas fa-chart-pie services-icon"></i>
               <p class="services-name">Tasty Cakes</p>
               <p class="services-text">
                 delectus reiciendis maiores alias consequatur aut.maiores alias
               </p>
-              <p class="buton"><a href="#">Learn more</a></p>
+              <a href="#" class="button">Learn more</a>
             </div>
           </div>
           <div class="services-content">
             <div class="services-icon">
-              <img class="icon" src="./images/images(3).png" alt="icon" />
+              <i class="fab fa-slideshare services-icon"></i>
               <p class="services-name">Tasty Cakes</p>
               <p class="services-text">
                 delectus reiciendis maiores alias consequatur aut.maiores alias
               </p>
-              <p class="buton"><a href="#">Learn more</a></p>
+              <a href="#" class="button">Learn more</a>
             </div>
           </div>
         </div>
@@ -168,39 +185,70 @@
         <div class="ourgallery-img grid-1-2">
           <div class="ourgallery-content">
             <img class="img" src="./images/g1.jpg" alt="Giraffe" />
-            <div class="ourgallery-text">OURGALLERY</div>
+            <div class="ourgallery-text"><h2> OURGALLERY</h2>
+              <p class="caption">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.
+              </p>
+            </div>
           </div>
         </div>
 
         <!-- 2 -->
         <div class="ourgallery-img">
-          <img class="img" src="./images/g2.jpg" alt="Cherry" />
-          <div class="ourgallery-text">OURGALLERY</div>
+          <div class="ourgallery-content">
+            <img class="img" src="./images/g2.jpg" alt="Cherry" />
+            <div class="ourgallery-text"><h2> OURGALLERY</h2>
+              <p class="caption">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.
+              </p>
+            </div>
+          </div>
         </div>
 
         <!-- 3 -->
         <div class="ourgallery-img">
-          <img class="img" src="./images/g3.jpg" alt="Vase" />
-          <div class="ourgallery-text">OURGALLERY</div>
+          <div class="ourgallery-content">
+            <img class="img" src="./images/g3.jpg" alt="Vase" />
+            <div class="ourgallery-text"><h2> OURGALLERY</h2>
+              <p class="caption">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.
+              </p>
+            </div>
+          </div>
         </div>
 
         <!-- 1 -->
         <div class="ourgallery-img">
-          <img class="img" src="./images/g4.jpg" alt="Legs" />
-          <div class="ourgallery-text">OURGALLERY</div>
+          <div class="ourgallery-content">
+            <img class="img" src="./images/g4.jpg" alt="Legs" />
+            <div class="ourgallery-text"><h2> OURGALLERY</h2>
+              <p class="caption">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.
+              </p>
+            </div>
+          </div>
         </div>
 
         <!-- 2 -->
         <div class="ourgallery-img">
-          <img class="img" src="./images/g5.jpg" alt="Bulb" />
-          <div class="ourgallery-text">OURGALLERY</div>
+          <div class="ourgallery-content">
+            <img class="img" src="./images/g5.jpg" alt="Bulb" />
+            <div class="ourgallery-text"><h2> OURGALLERY</h2>
+              <p class="caption">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.
+              </p>
+            </div>
+          </div>
         </div>
 
         <!-- 3 -->
         <div class="ourgallery-img grid-3-4">
           <div class="ourgallery-content">
             <img class="img" src="./images/g6.jpg" alt="Lemon" />
-            <div class="ourgallery-text">OURGALLERY</div>
+            <div class="ourgallery-text"><h2> OURGALLERY</h2>
+            <p class="caption">
+              Lorem ipsum dolor sit amet, consectetur adipiscing.
+            </p>
           </div>
         </div>
       </div>
@@ -213,42 +261,178 @@
           <img src="./images/t1.jpg" alt="John Simon" />
           <p class="text-name">John Simon</p>
           <p class="text">-Cake Maker</p>
+
+          <div class="baketeam-hover">
+            <p class="baketeam-name">John Simon</p>
+            <p class="baketeam-job">-Cake Maker</p>
+            <p class="baketeam-caption">
+              Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
+              friuisque pretiuam
+            </p>
+            <ul class="baketeam-icon-list">
+              <li>
+               <a href="#"><i class="fab fa-facebook-f baketeam-icon"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-google-plus-g baketeam-icon"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter baketeam-icon"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="baketeam-item">
           <img src="./images/t2.jpg" alt="Max Will" />
           <p class="text-name">Max Will</p>
           <p class="text">-Coffee Maker</p>
+
+          <div class="baketeam-hover">
+            <p class="baketeam-name">Max Will</p>
+            <p class="baketeam-job">-Coffee Maker</p>
+            <p class="baketeam-caption">
+              Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
+              friuisque pretiuam
+            </p>
+             <ul class="baketeam-icon-list">
+              <li>
+               <a href="#"><i class="fab fa-facebook-f baketeam-icon"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-google-plus-g baketeam-icon"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter baketeam-icon"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="baketeam-item">
           <img src="./images/t3.jpg" alt="Rose Murphy" />
           <p class="text-name">Rose Murphy</p>
           <p class="text">-Staff Manager</p>
+
+          <div class="baketeam-hover">
+            <p class="baketeam-name">Rose Murphy</p>
+            <p class="baketeam-job">-Staff Manager</p>
+            <p class="baketeam-caption">
+              Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
+              friuisque pretiuam
+            </p>
+             <ul class="baketeam-icon-list">
+              <li>
+               <a href="#"><i class="fab fa-facebook-f baketeam-icon"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-google-plus-g baketeam-icon"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter baketeam-icon"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="baketeam-item">
           <img src="./images/t4.jpg" alt="Barbara Will" />
           <p class="text-name">Barbara Will</p>
           <p class="text">-Cake Maker</p>
+
+          <div class="baketeam-hover">
+            <p class="baketeam-name">Barbara Will</p>
+            <p class="baketeam-job">-Cake Maker</p>
+            <p class="baketeam-caption">
+              Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
+              friuisque pretiuam
+            </p>
+            <ul class="baketeam-icon-list">
+              <li>
+               <a href="#"><i class="fab fa-facebook-f baketeam-icon"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-google-plus-g baketeam-icon"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter baketeam-icon"></i></a>
+              </li>
+            </ul>
+            </ul>
+          </div>
         </div>
 
         <div class="baketeam-item">
           <img src="./images/t1.jpg" alt="Derek Bybee" />
           <p class="text-name">Derek Bybee</p>
           <p class="text">-Coffee Maker</p>
+
+          <div class="baketeam-hover">
+            <p class="baketeam-name">Derek Bybee</p>
+            <p class="baketeam-job">-Coffee Maker</p>
+            <p class="baketeam-caption">
+              Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
+              friuisque pretiuam
+            </p>
+             <ul class="baketeam-icon-list">
+              <li>
+               <a href="#"><i class="fab fa-facebook-f baketeam-icon"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-google-plus-g baketeam-icon"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter baketeam-icon"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="baketeam-item">
           <img src="./images/t2.jpg" alt="Lucille Webster" />
           <p class="text-name">Lucille Webster</p>
           <p class="text">-Staff Manager</p>
+
+          <div class="baketeam-hover">
+            <p class="baketeam-name">Lucille Webster</p>
+            <p class="baketeam-job">-Staff Manager</p>
+            <p class="baketeam-caption">
+              Mauris tincidunt dolor eget diam dapibus vitae finibusnisl
+              friuisque pretiuam
+            </p>
+            <ul class="baketeam-icon-list">
+              <li>
+               <a href="#"><i class="fab fa-facebook-f baketeam-icon"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-google-plus-g baketeam-icon"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter baketeam-icon"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
     <!-- TESTIMONIALS -->
-    <section class="textimonials">
+    <!-- <section class="textimonials">
       <h1 class="textimonials-title">TESTIMONIALS</h1>
+      <div class="owl-carousel owl-theme">
+      <div class="textimonials-content">
+        <p class="textimonials-text">
+          "At vos et accusam kasd gubergren sed diam aliquyamerat, sed voluptua
+          labore et doloremagnal <br />aliquyamerat, sed diam voluptua."
+        </p>
+        <p class="textimonials-desc">ALLYI</p>
+      </div>
+      
       <div class="textimonials-content">
         <p class="textimonials-text">
           "At vos et accusam kasd gubergren sed diam aliquyamerat, sed voluptua
@@ -256,7 +440,46 @@
         </p>
         <p class="textimonials-desc">WILLSON</p>
       </div>
-    </section>
+      
+      <div class="textimonials-content">
+        <p class="textimonials-text">
+          "At vos et accusam kasd gubergren sed diam aliquyamerat, sed voluptua
+          labore et doloremagnal <br />aliquyamerat, sed diam voluptua."
+        </p>
+        <p class="textimonials-desc">MAX</p>
+      </div>
+      </div>
+    </section> -->
+    <section class="textimonials">
+        <h1 class="textimonials-title">TESTIMONIALS</h1>
+        <div class="textimonials-content">
+            <div class="owl-carousel textimonials-wrap">
+         <div class="textimonials-text owl-theme">
+          <p>
+            "At vos et accusam kasd gubergren sed diam aliquyamerat, sed voluptua
+            labore et doloremagnal <br />aliquyamerat, sed diam voluptua."
+          </p>
+          <p class="textimonials-desc owl-theme">ALLYI</p>
+        </div>
+        
+        <div class="textimonials-text owl-theme">
+          <p>
+            "At vos et accusam kasd gubergren sed diam aliquyamerat, sed voluptua
+            labore et doloremagnal <br />aliquyamerat, sed diam voluptua."
+          </p>
+          <p class="textimonials-desc owl-theme">WILLSON</p>
+        </div>
+        
+        <div class="textimonials-text owl-theme">
+          <p>
+            "At vos et accusam kasd gubergren sed diam aliquyamerat, sed voluptua
+            labore et doloremagnal <br />aliquyamerat, sed diam voluptua."
+          </p>
+          <p class="textimonials-desc owl-theme">MAX</p>
+        </div>
+        </div>
+        </div>
+      </section>
 
     <!-- CONTACT  -->
     <section class="contact">
@@ -348,44 +571,26 @@
                 <p class="day">Monday</p>
                 <p class="time">9:30-18:30</p>
               </li>
-            </ul>
-
-            <ul>
               <li>
                 <p class="day">Tuesday</p>
                 <p class="time">9:30-18:30</p>
               </li>
-            </ul>
-
-            <ul>
               <li>
                 <p class="day">Wednesday</p>
                 <p class="time">9:30-18:30</p>
               </li>
-            </ul>
-
-            <ul>
               <li>
                 <p class="day">Thursday</p>
                 <p class="time">9:30-18:30</p>
               </li>
-            </ul>
-
-            <ul>
               <li>
                 <p class="day">Friday</p>
                 <p class="time">9:30-18:30</p>
               </li>
-            </ul>
-
-            <ul>
               <li>
                 <p class="day">Saturday</p>
                 <p class="time">9:30-18:30</p>
               </li>
-            </ul>
-
-            <ul>
               <li>
                 <p class="day">Sunday</p>
                 <p class="time">Closed</p>
@@ -409,9 +614,11 @@
           <!-- 4 -->
           <div class="footer-item">
             <h1 class="footer-title">Subscribe Us</h1>
-            <input type="email" placeholder="name@example.com" required />
-            <br />
-            <button class="footer-text">Send</button>
+            <form action="#" method="post">
+              <input type="email" placeholder="name@example.com" required />
+              <br />
+              <button class="footer-text">Send</button>
+            </form>
             <p class="footer-text">
               ultricies nec, pellentesque eu, protium quis, sem.Nulla consequat
               massa quis enim. Donec pede justo, fringilla
@@ -424,6 +631,26 @@
           <p class="w3">W3Layouts</p>
         </div>
       </div>
+
     </footer>
+   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>$(".owl-carousel").owlCarousel({
+          loop: true,
+          autoplay: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+          },
+              navigation : false,
+    navigationText : ["prev","next"],
+    pagination : true,
+    paginationNumbers: true,
+
+        });
+</script>
   </body>
 </html>

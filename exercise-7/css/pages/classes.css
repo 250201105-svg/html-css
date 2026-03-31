@@ -1,0 +1,85 @@
+.header {
+  position: fixed;
+  top: 46px;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* BANNER  */
+.classes .banner {
+  background: url("./../pages/images/bn1.jpg") no-repeat top;
+  background-size: cover;
+  margin: 0rem;
+  height: 28rem;
+  position: relative;
+}
+.classes .breadcrumb-list {
+  display: flex;
+  gap: 0.8rem;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: 6rem;
+  margin-left: -6.4rem;
+  left: 50%;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.classes .breadcrumb-list .active {
+  color: var(--primary-color);
+}
+.classes .breadcrumb-list i {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
+  font-weight: 600;
+}
+.classes .breadcrumb-list a {
+  color: var(--primary-color);
+}
+/* Featured Classes */
+.featured {
+  background: var(--bg-color);
+}
+.featured .featured-item {
+  padding: 30px 30px;
+  border-radius: var(--border-radius-full);
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
+  background-color: var(--bg-color);
+  position: relative;
+}
+.featured .blog-title .sub-titlehny {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+  color: #7e7d7d;
+  display: block;
+}
+.featured .container .blog-item .featured-item:hover {
+  background: var(--primary-dark);
+  color: #fff;
+  transition: 0.3s;
+}
+/* .featured .featured-item:hover a {
+  background: var(--primary-dark);
+  color: #fff;
+  transition: 0.3s;
+} */
+.featured .blog-item .featured-item .time-hover {
+  display: none;
+  position: absolute;
+  top: 146px;
+  left: 40px;
+  font-size: 1.8rem;
+  background: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: var(--border-radius-full);
+}
+.featured .featured-item:hover .time-hover {
+  display: block;
+  transition: 0.5s ease-out;
+}

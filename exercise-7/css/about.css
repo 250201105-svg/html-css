@@ -12,6 +12,7 @@
   --font-color: #696687;
   --secondary-color: #e71d36;
   --primary-dark: #011627;
+  --bg-lightgrey: #f8f9fa;
 }
 /* ========== */
 .header {
@@ -68,4 +69,122 @@ p {
 }
 .classes .breadcrumb-list a {
   color: var(--primary-color);
+}
+/* GROUP  */
+.group-item {
+  background: var(--bg-lightgrey);
+}
+.right-icon {
+  color: var(--primary-color);
+  font-size: 3.5rem;
+  text-align: center;
+}
+.group-conten {
+  text-align: left !important;
+  margin-bottom: 0 !important;
+  color: var(--heading-color) !important;
+  font-weight: 700 !important;
+  font-size: 2.4rem !important;
+}
+/* MODERN GYM */
+.modern-gym .two-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  grid-row-gap: 4rem;
+}
+.modern-gym img {
+  border-radius: var(--border-radius);
+}
+/* HEALTHY  */
+.everything {
+  position: relative;
+  background: url("./../images/bn2.jpg") no-repeat top;
+  background-size: cover;
+  margin-top: 9rem;
+}
+
+.everything-text {
+  text-align: center;
+}
+
+.everything-text h4 {
+  text-align: center;
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  font-weight: 700;
+  color: #fff;
+  max-width: 80rem;
+  margin: auto;
+}
+
+.everything-text p {
+  font-size: 2rem;
+  color: var(--bg-color);
+  line-height: 3rem;
+  max-width: 80rem;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.our-video .sub-titlehny {
+  color: var(--bg-color);
+}
+.our-video .hlt-title {
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: 700;
+  color: var(--bg-color);
+}
+.our-video .hlt-text {
+  color: #eee !important;
+  max-width: 80rem;
+  margin: auto;
+  margin-top: 1.5rem;
+  font-size: 2rem !important;
+  line-height: 3rem;
+}
+/* Meet our */
+.meet-our .team-title {
+  display: inline-block;
+  margin-top: 2.5rem;
+  font-size: 2.4rem;
+  color: var(--heading-color);
+  font-weight: 700;
+}
+.meet-our .team-img {
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+.meet-our .team-content {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+.meet-our .team-hover {
+  position: absolute;
+  top: 58%;
+  left: 26%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.meet-our .team-title:hover {
+  color: var(--primary-color);
+}
+.meet-our .img-icon:hover .team-hover {
+  opacity: 1;
+}
+.meet-our .team-hover .team-icon:hover {
+  color: var(--primary-color);
+  background: var(--bg-color);
+}
+.meet-our .fa-brands {
+  color: var(--bg-color);
+  padding-top: 1.2rem;
+  margin: 0 0.4rem;
+  background: #ffffff6e;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
 }

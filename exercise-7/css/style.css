@@ -33,11 +33,15 @@ html[data-theme="dark"] {
 }
 
 /* RESET */
-.row > * {
+.row > *,
+.container {
   padding-right: var(--bs-gutter-x);
   padding-left: var(--bs-gutter-x);
 }
-
+.row {
+  margin-right: calc(-1 * var(--bs-gutter-x));
+  margin-left: calc(-1 * var(--bs-gutter-x));
+}
 /* COMMON  */
 * {
   margin: 0;
@@ -131,10 +135,10 @@ input {
 .button-video {
   border: 0;
   background: none;
-  display: inline-block;
   gap: 1rem;
+  display: inline-flex;
 }
-.button-video .button-play-icon {
+.button-video .video-play-icon {
   background: rgba(255, 248, 248, 0.25);
   width: 5.4rem;
   height: 5.4rem;
@@ -142,7 +146,7 @@ input {
   line-height: 5.8rem;
   border-radius: 50%;
 }
-.button-video .button-play-icon .fa {
+.button-video .video-play-icon .fa {
   font-size: 2rem;
   color: var(--white-color);
 }
@@ -153,7 +157,7 @@ input {
   text-align: center;
   font-size: 2rem;
 }
-.title-chung {
+.title {
   font-size: 3.6rem;
   line-height: 4.6rem;
   font-weight: 700;
@@ -168,6 +172,53 @@ input {
   letter-spacing: 0.1rem;
   color: #7e7d7d;
   display: block;
+}
+/*  */
+.blogposts .blog-item .item-text {
+  display: grid;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.blogposts .blog-item .item-text2 {
+  text-decoration: none;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-weight: 700;
+  color: var(--white-color);
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  transition: 0.3s ease;
+}
+
+.blogposts .blog-item .item-text3 {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.blogposts .blog-item .blog-read {
+  text-decoration: none;
+  font-size: 17px;
+  padding: 0;
+  color: var(--heading-color);
+  transition: 0.3s ease-in-out;
+  font-weight: 700;
+  border-radius: 0;
+  margin-top: 10px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.blogposts .blog-item .blog-read:hover {
+  color: var(--primary-color);
+}
+
+.blogposts .blog-item .blog-icon {
+  color: var(--primary-color);
+  font-size: 1.6rem;
 }
 /* FOOTER */
 
@@ -264,4 +315,16 @@ input {
 .modal .modal-dialog .modal-content .modal-close i {
   color: var(--white-color);
   font-size: 1.3rem;
+}
+
+/* MEDIA  */
+@media (min-width: 992px) {
+  .section {
+    padding: 9.6rem 0;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }

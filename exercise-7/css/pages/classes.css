@@ -43,6 +43,9 @@
 .featured {
   background: var(--bg-color);
 }
+.featured .blog-title {
+  text-align: center;
+}
 .featured .featured-item {
   padding: 30px 30px;
   border-radius: var(--border-radius-full);

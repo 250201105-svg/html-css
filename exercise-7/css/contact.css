@@ -114,6 +114,7 @@ p {
   width: 100%;
   height: 5.8rem;
   margin-bottom: 2.4rem;
+  outline: 0;
 }
 .contact .text-right {
   text-align: right !important;

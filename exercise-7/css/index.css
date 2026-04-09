@@ -152,6 +152,7 @@
 }
 
 /* ABOUT */
+
 .about .img-border {
   flex: 0 0 50%;
   border-radius: var(--border-radius-full);
@@ -165,7 +166,7 @@
   line-height: 4.8rem;
   font-weight: 700;
   max-width: 55rem;
-  padding-left: 1.5rem;
+  /* padding-left: 1.5rem; */
 }
 
 .about .about-content h4 {
@@ -188,7 +189,6 @@
 /* SUCCESS */
 .success {
   background: var(--bg-lightgrey);
-  margin-top: 4.8rem;
 }
 
 .success .success-tittle {
@@ -225,7 +225,7 @@
 }
 
 .success .success-item .counter {
-  font-size: 6.4rem;
+  font-size: 3.6rem;
   font-weight: 700;
   line-height: 7rem;
   color: var(--heading-color);
@@ -279,11 +279,11 @@
 
 .everything-text h4 {
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 4rem;
   line-height: 5.5rem;
   font-weight: 700;
   color: #fff;
-  max-width: 80rem;
+  /* max-width: 80rem; */
   margin: auto;
 }
 
@@ -325,53 +325,6 @@
   border-radius: 0.6rem;
 }
 
-.blogposts .blog-item .item-text {
-  display: grid;
-  font-size: 16px;
-  line-height: 25px;
-  color: #999;
-  text-transform: uppercase;
-  font-weight: normal;
-}
-
-.blogposts .blog-item .item-text2 {
-  text-decoration: none;
-  font-size: 2.4rem;
-  line-height: 3rem;
-  font-weight: 700;
-  color: #011627;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  transition: 0.3s ease;
-}
-
-.blogposts .blog-item .item-text3 {
-  font-size: 1.8rem;
-  line-height: 2.8rem;
-}
-
-.blogposts .blog-item .blog-read {
-  text-decoration: none;
-  font-size: 17px;
-  padding: 0;
-  color: #011627;
-  transition: 0.3s ease-in-out;
-  font-weight: 700;
-  border-radius: 0;
-  margin-top: 10px;
-  display: inline-block;
-  text-transform: capitalize;
-}
-
-.blogposts .blog-item .blog-read:hover {
-  color: var(--primary-color);
-}
-
-.blogposts .blog-item .blog-icon {
-  color: var(--primary-color);
-  font-size: 1.6rem;
-}
-
 /* Testimonials */
 .testimonials .container .testimonials-img {
   width: 9rem;
@@ -403,8 +356,8 @@
 
 /* @MEDIA */
 @media (min-width: 992px) {
-  .banner-text h3 {
-    font-size: 5.4rem;
+  .banner .container .banner-text h3 {
+    font-size: 4.5rem;
   }
 
   .banner-form {

@@ -9,7 +9,7 @@
 
 .header .title {
   text-decoration: none;
-  color: #011623;
+  color: var(--heading-color);
   font-size: 2.6rem;
   font-weight: 700;
 }
@@ -60,9 +60,10 @@
 }
 
 .header .fa-solid {
-  margin-top: 2.2rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .navbar-nav .nav-link {
@@ -94,10 +95,9 @@
   text-align: center;
 }
 @media (min-width: 992px) {
-  .header .title {
-    font-size: 3.6rem;
+  .navbar-expand-lg .navbar-nav {
+    align-items: center;
   }
-
   .navbar .navbar-collapse {
     justify-content: end;
   }

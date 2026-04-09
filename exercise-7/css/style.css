@@ -4,11 +4,13 @@
   --white-color: #fff;
   --nav-color: #696687;
   --border-radius: 0.6rem;
+  --border-radius-lg: 1rem;
   --border-radius-full: 1.5rem;
   --border-color: #ddd;
   --bg-color: #fff;
   --bg-grey: #f4f4f4;
   --bg-red: #e71d36;
+  --bg-dark: ##151515;
   --heading-color: #011623;
   --font-color: #696687;
   --secondary-color: #e71d36;
@@ -126,6 +128,27 @@ input {
   right: 2rem;
 }
 
+.button-video {
+  border: 0;
+  background: none;
+  display: inline-block;
+  gap: 1rem;
+}
+.button-video .button-play-icon {
+  background: rgba(255, 248, 248, 0.25);
+  width: 5.4rem;
+  height: 5.4rem;
+  display: inline-block;
+  line-height: 5.8rem;
+  border-radius: 50%;
+}
+.button-video .button-play-icon .fa {
+  font-size: 2rem;
+  color: var(--white-color);
+}
+.button-video .video-content {
+  color: var(--white-color) !important;
+}
 .testimonials {
   text-align: center;
   font-size: 2rem;
@@ -222,4 +245,23 @@ input {
 
 .prowess .prowess-text-right {
   width: fit-content;
+}
+/* :modal */
+.modal .modal-dialog .modal-content {
+  border-radius: var(--border-radius-lg);
+  padding: 1rem;
+}
+.modal .modal-dialog .modal-content iframe {
+  border-radius: var(--border-radius);
+}
+.modal .modal-dialog .modal-content .modal-close {
+  position: absolute;
+  right: 0;
+  top: -3rem;
+  border: 0;
+  background: none;
+}
+.modal .modal-dialog .modal-content .modal-close i {
+  color: var(--white-color);
+  font-size: 1.3rem;
 }

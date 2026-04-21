@@ -1,4 +1,8 @@
 /* color  */
+/* ========== */
+/* BANNER  */
+/* Contact Us */
+/* Additional Info */
 :root {
   --primary-color: #2ec4b6;
   --nav-color: #696687;
@@ -13,7 +17,7 @@
   --secondary-color: #e71d36;
   --primary-dark: #011627;
 }
-/* ========== */
+
 .header {
   position: fixed;
   top: 46px;
@@ -25,18 +29,21 @@
 body {
   font-family: "Assistant", sans-serif;
 }
+
 p {
   font-size: 1.8rem !important;
   color: var(--font-color) !important;
   font-weight: 0 !important;
 }
+
 .color-icon {
   color: $primary-color;
 }
+
 .text-left {
   text-align: left;
 }
-/* BANNER  */
+
 .classes .banner {
   background: url("./../pages/images/bn1.jpg") no-repeat top;
   background-size: cover;
@@ -69,16 +76,14 @@ p {
 .classes .breadcrumb-list a {
   color: $primary-color;
 }
-/* Contact Us */
+
 .contact-find-us {
   grid-template-columns: 1fr 1.3fr;
   grid-gap: 30px;
 }
-.contact .blog-title {
-  text-transform: none !important;
-}
 
 .contact .blog-title {
+  text-transform: none !important;
   font-size: 1.8rem;
   color: var(--font-color);
   text-align: center;
@@ -87,7 +92,6 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
-  /* margin-bottom: 2rem; */
 }
 .contact form input {
   background: var(--bg-grey);
@@ -119,18 +123,20 @@ p {
 .contact .text-right {
   text-align: right !important;
 }
-/* Additional Info */
+
 .featured .cont-top {
   display: grid;
   grid-template-columns: 20px auto;
   grid-column-gap: 20px;
   text-align: left;
 }
+
 .additional .cont-right h6 {
   font-size: 20px;
   color: var(--heading-color);
   font-weight: 700;
 }
+
 @media (max-width: 992px) {
   .contact-find-us {
     grid-template-columns: 1fr;

@@ -28,7 +28,7 @@
   margin-bottom: 1rem;
 }
 .classes .breadcrumb-list .active {
-  color: var(--primary-color);
+  color: $primary-color;
 }
 .classes .breadcrumb-list i {
   color: #ffffff;
@@ -37,11 +37,11 @@
   font-weight: 600;
 }
 .classes .breadcrumb-list a {
-  color: var(--primary-color);
+  color: $primary-color;
 }
 /* Featured Classes */
 .featured {
-  background: var(--bg-color);
+  background: $bg-color;
 }
 .featured .blog-title {
   text-align: center;
@@ -50,17 +50,17 @@
   padding: 30px 30px;
   border-radius: var(--border-radius-full);
   box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
-  background-color: var(--bg-color);
+  background-color: $bg-color;
   position: relative;
 }
 
 .featured .container .blog-item .featured-item:hover {
-  background: var(--primary-dark);
+  background: $primary-dark;
   color: #fff;
   transition: 0.3s;
 }
 /* .featured .featured-item:hover a {
-  background: var(--primary-dark);
+  background: $primary-dark;
   color: #fff;
   transition: 0.3s;
 } */

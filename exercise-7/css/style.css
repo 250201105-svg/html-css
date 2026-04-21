@@ -35,12 +35,12 @@ html[data-theme="dark"] {
 /* RESET */
 .row > *,
 .container {
-  padding-right: var(--bs-gutter-x);
-  padding-left: var(--bs-gutter-x);
+  padding-right: $bs-gutter-x;
+  padding-left: $bs-gutter-x;
 }
 .row {
-  margin-right: calc(-1 * var(--bs-gutter-x));
-  margin-left: calc(-1 * var(--bs-gutter-x));
+  margin-right: calc(-1 * $bs-gutter-x);
+  margin-left: calc(-1 * $bs-gutter-x);
 }
 /* COMMON  */
 * {
@@ -56,7 +56,7 @@ html {
 body {
   font-family: "Assistant", sans-serif;
   color: var(--font-color);
-  background: var(--bg-color);
+  background: $bg-color;
 }
 
 blockquote {
@@ -91,8 +91,8 @@ input {
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 1.5rem;
-  border-radius: var(--border-radius);
-  border: 0.1rem solid var(--border-color);
+  border-radius: $border-radius;
+  border: 0.1rem solid $border-color;
   background: none;
 }
 
@@ -102,7 +102,7 @@ input {
   line-height: 2.8rem;
   padding: 1.2rem 3.5rem;
   border: 0;
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
   text-decoration: none;
   font-weight: 700;
   margin-right: 1.5rem;
@@ -110,20 +110,20 @@ input {
 }
 
 .button-secondary {
-  background: var(--white-color);
-  color: var(--primary-color);
+  background: $white-color;
+  color: $primary-color;
 }
 
 .button-primary {
-  background: var(--primary-color);
-  color: var(--white-color);
+  background: $primary-color;
+  color: $white-color;
 }
 
 .button-move-top {
-  color: var(--bg-color);
+  color: $bg-color;
   width: 5rem;
   height: 5rem;
-  background-color: var(--primary-color);
+  background-color: $primary-color;
   border: 0;
   border-radius: 50%;
   font-size: 1.8rem;
@@ -148,10 +148,10 @@ input {
 }
 .button-video .video-play-icon .fa {
   font-size: 2rem;
-  color: var(--white-color);
+  color: $white-color;
 }
 .button-video .video-content {
-  color: var(--white-color) !important;
+  color: $white-color !important;
 }
 .testimonials {
   text-align: center;
@@ -188,7 +188,7 @@ input {
   font-size: 2.4rem;
   line-height: 3rem;
   font-weight: 700;
-  color: var(--white-color);
+  color: $white-color;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   transition: 0.3s ease;
@@ -213,17 +213,17 @@ input {
 }
 
 .blogposts .blog-item .blog-read:hover {
-  color: var(--primary-color);
+  color: $primary-color;
 }
 
 .blogposts .blog-item .blog-icon {
-  color: var(--primary-color);
+  color: $primary-color;
   font-size: 1.6rem;
 }
 /* FOOTER */
 
 .footer {
-  background: var(--primary-dark);
+  background: $primary-dark;
 }
 
 .footer .footer-title {
@@ -260,7 +260,7 @@ input {
 }
 
 .footer .footer-item ul li a:hover {
-  color: var(--primary-color);
+  color: $primary-color;
 }
 
 .footer .footer-item ul {
@@ -277,7 +277,7 @@ input {
 }
 /* Prowess Lift */
 .prowess {
-  background-color: var(--primary-color);
+  background-color: $primary-color;
 }
 
 .prowess .prowess-item {
@@ -299,11 +299,11 @@ input {
 }
 /* :modal */
 .modal .modal-dialog .modal-content {
-  border-radius: var(--border-radius-lg);
+  border-radius: $border-radius-lg;
   padding: 1rem;
 }
 .modal .modal-dialog .modal-content iframe {
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
 }
 .modal .modal-dialog .modal-content .modal-close {
   position: absolute;
@@ -313,7 +313,7 @@ input {
   background: none;
 }
 .modal .modal-dialog .modal-content .modal-close i {
-  color: var(--white-color);
+  color: $white-color;
   font-size: 1.3rem;
 }
 

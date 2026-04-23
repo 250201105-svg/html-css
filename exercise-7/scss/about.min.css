@@ -41,7 +41,7 @@
 .group-item .group-conten {
   text-align: left !important;
   margin-bottom: 0 !important;
-  color: var(--heading-color) !important;
+  color: $heading-color !important;
   font-weight: 700 !important;
   font-size: 2.4rem !important;
 }
@@ -99,7 +99,7 @@
   display: inline-block;
   margin-top: 2.5rem;
   font-size: 2.4rem;
-  color: var(--heading-color);
+  color: $heading-color;
   font-weight: 700;
 }
 .meet-our .team-img {

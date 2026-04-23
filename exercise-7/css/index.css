@@ -127,7 +127,7 @@
 .product .product-video h4 a {
   text-decoration: none;
   border-radius: 0.6rem;
-  color: var(--heading-color);
+  color: $heading-color;
   display: block;
   font-size: 2.2rem;
   font-weight: 700;
@@ -155,7 +155,7 @@
 
 .about .img-border {
   flex: 0 0 50%;
-  border-radius: var(--border-radius-full);
+  border-radius: $border-radius-full;
   max-width: 100%;
   height: auto;
   padding: 0 1.5rem;
@@ -180,7 +180,7 @@
   flex: 0 0 50%;
   font-size: 1.8rem;
   line-height: 2.8rem;
-  color: var(--font-color);
+  color: $font-color;
   font-weight: 700;
   max-width: 55rem;
   margin-top: 1.5rem;
@@ -228,7 +228,7 @@
   font-size: 3.6rem;
   font-weight: 700;
   line-height: 7rem;
-  color: var(--heading-color);
+  color: $heading-color;
   margin-top: 3rem;
 }
 
@@ -236,7 +236,7 @@
   font-size: 2rem;
   line-height: 3rem;
   text-transform: capitalize;
-  color: var(--font-color);
+  color: $font-color;
   margin-top: 1rem;
   padding: 0 2rem;
 }
@@ -253,13 +253,13 @@
 }
 
 .product-control .progress-info .progress-bar {
-  background-color: var(--bg-grey);
+  background-color: $bg-grey;
   border-radius: 0.4rem;
   height: 0.6rem;
 }
 
 .product-control .progress-info .progress-bar .striped {
-  background-color: var(--bg-red);
+  background-color: $bg-red;
   height: 100%;
   width: 0;
   transition: width 0.3s;

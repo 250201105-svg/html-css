@@ -1,15 +1,15 @@
 $color_1: $white-color;
 $color_2: #eee;
-$color_3: var(--heading-color);
-$color_4: var(--font-color);
+$color_3: $heading-color;
+$color_4: $font-color;
 $color_5: #7e7d7d;
 $color_6: #fff;
 $color_7: #777;
 $background-color_1: $bg-color;
 $background-color_2: $primary-color;
 $background-color_3: #031f31;
-$background-color_4: var(--bg-grey);
-$background-color_5: var(--bg-red);
+$background-color_4: $bg-grey;
+$background-color_5: $bg-red;
 
 /* BANNER  */
 /* PRODUCT VIDEO */
@@ -167,7 +167,7 @@ $background-color_5: var(--bg-red);
 .about {
   .img-border {
     flex: 0 0 50%;
-    border-radius: var(--border-radius-full);
+    border-radius: $border-radius-full;
     max-width: 100%;
     height: auto;
     padding: 0 1.5rem;

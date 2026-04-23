@@ -1,7 +1,7 @@
-$color_1: var(--font-color);
+$color_1: $font-color;
 $color_2: $primary-color;
 $color_3: #ffffff;
-$color_4: var(--heading-color);
+$color_4: $heading-color;
 $font-family_1: "Assistant", sans-serif;
 
 /* color  */
@@ -96,7 +96,7 @@ p {
   }
   form {
     input {
-      background: var(--bg-grey);
+      background: $bg-grey;
       border-radius: $border-radius;
       border: 1px solid transparent;
       color: $color_1;
@@ -110,7 +110,7 @@ p {
     textarea {
       resize: none;
       min-height: 14rem;
-      background: var(--bg-grey);
+      background: $bg-grey;
       border: 1px solid transparent;
       color: $color_1;
       border-radius: $border-radius;

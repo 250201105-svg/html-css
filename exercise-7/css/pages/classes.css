@@ -48,7 +48,7 @@
 }
 .featured .featured-item {
   padding: 30px 30px;
-  border-radius: var(--border-radius-full);
+  border-radius: $border-radius-full;
   box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
   background-color: $bg-color;
   position: relative;
@@ -70,9 +70,9 @@
   top: 146px;
   left: 40px;
   font-size: 1.8rem;
-  background: var(--secondary-color);
+  background: $secondary-color;
   padding: 10px 15px;
-  border-radius: var(--border-radius-full);
+  border-radius: $border-radius-full;
 }
 .featured .featured-item:hover .time-hover {
   display: block;

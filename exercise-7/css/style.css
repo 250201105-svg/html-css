@@ -55,7 +55,7 @@ html {
 
 body {
   font-family: "Assistant", sans-serif;
-  color: var(--font-color);
+  color: $font-color;
   background: $bg-color;
 }
 
@@ -68,7 +68,7 @@ ul {
 }
 
 a {
-  color: var(--font-color);
+  color: $font-color;
   text-decoration: none;
   outline: none;
 }
@@ -79,7 +79,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: $heading-color;
   font-family: "Assistant", sans-serif;
 }
 
@@ -203,7 +203,7 @@ input {
   text-decoration: none;
   font-size: 17px;
   padding: 0;
-  color: var(--heading-color);
+  color: $heading-color;
   transition: 0.3s ease-in-out;
   font-weight: 700;
   border-radius: 0;
@@ -291,7 +291,7 @@ input {
   font-size: 40px;
   line-height: 48px;
   font-weight: 700;
-  color: var(--heading-color);
+  color: $heading-color;
 }
 
 .prowess .prowess-text-right {

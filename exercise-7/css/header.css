@@ -9,7 +9,7 @@
 
 .header .title {
   text-decoration: none;
-  color: var(--heading-color);
+  color: $heading-color;
   font-size: 2.6rem;
   font-weight: 700;
 }
@@ -44,7 +44,7 @@
   font-weight: 700;
   letter-spacing: 0.85px;
   padding: 5px 24px;
-  color: var(--heading-color);
+  color: $heading-color;
 }
 
 .header .navbar .dropdown-item:hover {
@@ -67,7 +67,7 @@
 }
 
 .navbar-nav .nav-link {
-  color: var(--font-color);
+  color: $font-color;
 }
 
 .navbar-nav .nav-link.active,

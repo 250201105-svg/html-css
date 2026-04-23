@@ -27,7 +27,7 @@ body {
 }
 p {
   font-size: 1.8rem !important;
-  color: var(--font-color) !important;
+  color: $font-color !important;
   font-weight: 0 !important;
 }
 .color-icon {
@@ -80,7 +80,7 @@ p {
 
 .contact .blog-title {
   font-size: 1.8rem;
-  color: var(--font-color);
+  color: $font-color;
   text-align: center;
 }
 .contact .twice-two {
@@ -90,10 +90,10 @@ p {
   /* margin-bottom: 2rem; */
 }
 .contact form input {
-  background: var(--bg-grey);
+  background: $bg-grey;
   border-radius: $border-radius;
   border: 1px solid transparent;
-  color: var(--font-color);
+  color: $font-color;
   font-size: 1.8rem;
   padding: 1.2rem 2rem;
   line-height: 2.8rem;
@@ -104,9 +104,9 @@ p {
 .contact form textarea {
   resize: none;
   min-height: 14rem;
-  background: var(--bg-grey);
+  background: $bg-grey;
   border: 1px solid transparent;
-  color: var(--font-color);
+  color: $font-color;
   border-radius: $border-radius;
   font-size: 1.8rem;
   padding: 1.2rem 2rem;
@@ -128,7 +128,7 @@ p {
 }
 .additional .cont-right h6 {
   font-size: 20px;
-  color: var(--heading-color);
+  color: $heading-color;
   font-weight: 700;
 }
 @media (max-width: 992px) {

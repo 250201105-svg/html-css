@@ -1,0 +1,18 @@
+.prowess {
+  background-color: $primary-color;
+  .prowess-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .prowess-text {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: $heading-color;
+  }
+  .prowess-text-right {
+    width: fit-content;
+  }
+}

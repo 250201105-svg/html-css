@@ -14,16 +14,47 @@ body {
   background: $bg-color;
 }
 
+blockquote {
+  margin: 0 0 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: $color_1;
+  text-decoration: none;
+  outline: none;
+}
+
+p {
+  font-size: 1.8rem;
+  color: $font-color;
+}
+
 .row {
   > * {
     padding-right: $bs-gutter-x;
     padding-left: $bs-gutter-x;
   }
-  margin-right: calc(-1 * $bs-gutter-x);
-  margin-left: calc(-1 * $bs-gutter-x);
+  margin-right: -$bs-gutter-x;
+  margin-left: -$bs-gutter-x;
 }
 
 .container {
   padding-right: $bs-gutter-x;
   padding-left: $bs-gutter-x;
+}
+
+@media (min-width: 992px) {
+  .section {
+    padding: 9.6rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }

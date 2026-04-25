@@ -1,0 +1,22 @@
+.modal {
+  .modal-dialog {
+    .modal-content {
+      border-radius: $border-radius-lg;
+      padding: 1rem;
+      iframe {
+        border-radius: $border-radius;
+      }
+      .modal-close {
+        position: absolute;
+        right: 0;
+        top: -3rem;
+        border: 0;
+        background: none;
+        i {
+          color: $color_5;
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}

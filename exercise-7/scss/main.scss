@@ -6,8 +6,18 @@
 @import "layout/header";
 @import "layout/footer";
 
+@import "components/buttons";
+@import "components/carousel";
+@import "components/forms";
+@import "components/modal";
+@import "components/blog";
+@import "components/prowess";
+@import "components/banner";
+@import "components/breadcrumb";
+
 @import "pages/home";
 @import "pages/about";
 @import "pages/classes";
+@import "pages/contact";
 
 @import "themes/theme";

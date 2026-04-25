@@ -1,6 +1,11 @@
 // COLOR
 $primary-color: #2ec4b6;
 $white-color: #fff;
+$grey-color: #7f8a94;
+$medium-grey-color: #7e7d7d;
+$peach-color: #eee;
+$boulder-color: #777;
+$midnight-color: #031f31;
 $nav-color: #696687;
 $border-radius: 0.6rem;
 $border-radius-lg: 1rem;
@@ -14,9 +19,11 @@ $heading-color: #011623;
 $font-color: #696687;
 $secondary-color: #e71d36;
 $primary-dark: #011627;
+$font-family_1: "Assistant", sans-serif;
 
+// TODO
 $color_1: var(--font-color);
-$color_2: var(--heading-color);
+$heading-color: var(--heading-color);
 $color_3: #696687;
 $color_4: var(--primary-color);
 $color_5: var(--white-color);
@@ -25,8 +32,7 @@ $color_7: #7e7d7d;
 $color_8: #999;
 $color_9: #fff;
 $color_10: #7f8a94;
-$font-family_1: "Assistant", sans-serif;
-$background-color_1: var(--primary-color);
+$nav-color: var(--primary-color);
 
 //GUTTER
 $bs-gutter-x: 1.5rem;

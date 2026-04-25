@@ -1,0 +1,28 @@
+.breadcrumb-list {
+  display: flex;
+  gap: 0.8rem;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: 6rem;
+  margin-left: -6.4rem;
+  left: 50%;
+  font-weight: 600;
+  margin-bottom: 1rem;
+
+  .active {
+    color: $primary-color;
+  }
+
+  i {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+    font-weight: 600;
+  }
+  
+  a {
+    color: $primary-color;
+  }
+}

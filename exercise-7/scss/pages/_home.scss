@@ -1,25 +1,3 @@
-$color_1: $white-color;
-$color_2: #eee;
-$color_3: $heading-color;
-$color_4: $font-color;
-$color_5: #7e7d7d;
-$color_6: #fff;
-$color_7: #777;
-$background-color_1: $bg-color;
-$background-color_2: $primary-color;
-$background-color_3: #031f31;
-$background-color_4: $bg-grey;
-$background-color_5: $bg-red;
-
-/* BANNER  */
-/* PRODUCT VIDEO */
-/* ABOUT */
-/* SUCCESS */
-/* PRODUCT CONTROL */
-/* EVERYTHING */
-/* Blogposts */
-/* Testimonials */
-/* @MEDIA */
 .banner {
   background: url("./../images/banner.jpg") no-repeat center;
   background-size: cover;
@@ -27,12 +5,12 @@ $background-color_5: $bg-red;
   height: 81rem;
   .banner-text {
     .title {
-      color: $color_1;
+      color: $white-color;
       font-size: 4rem;
       font-weight: 700;
     }
     .description {
-      color: $color_2;
+      color: $peach-color;
       font-size: 1.8rem;
       line-height: 2.8rem;
       letter-spacing: 1px;
@@ -59,7 +37,7 @@ $background-color_5: $bg-red;
       left: 0;
       height: 21px;
       width: 21px;
-      background-color: $background-color_1;
+      background-color: $bg-color;
       border-radius: $border-radius;
       border: 1px solid $border-color;
       user-select: none;
@@ -80,7 +58,7 @@ $background-color_5: $bg-red;
       &:checked {
         ~ {
           .checkmark {
-            background-color: $background-color_2;
+            background-color: $primary-color;
             border: none;
             &:after {
               display: block;
@@ -89,7 +67,7 @@ $background-color_5: $bg-red;
         }
       }
     }
-    background-color: $background-color_1;
+    background-color: $bg-color;
     flex: 0 0 50%;
     padding: 4rem;
     max-width: 40rem;
@@ -114,22 +92,22 @@ $background-color_5: $bg-red;
   }
 }
 .product {
-  background: var(--bg-lightgrey);
+  background: $bg-grey;
   padding: 4.8rem 1.5rem;
   .product-item {
-    background-color: $background-color_1;
+    background-color: $bg-color;
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
     border-radius: 0.6rem;
     height: 100%;
     &:hover {
-      background-color: $background-color_3;
-      color: $color_1;
+      background-color: $midnight-color;
+      color: $white-color;
     }
   }
   .product-video {
     &:hover {
       a {
-        color: $color_1;
+        color: $white-color;
       }
     }
     padding: 3rem;
@@ -138,7 +116,7 @@ $background-color_5: $bg-red;
       a {
         text-decoration: none;
         border-radius: 0.6rem;
-        color: $color_3;
+        color: $heading-color;
         display: block;
         font-size: 2.2rem;
         font-weight: 700;
@@ -150,7 +128,7 @@ $background-color_5: $bg-red;
   .fa-solid {
     font-weight: 900;
     font-size: 2.6rem;
-    color: $color_1;
+    color: $white-color;
     padding-top: 2rem;
     border-radius: 50%;
     text-align: center;
@@ -188,14 +166,14 @@ $background-color_5: $bg-red;
     flex: 0 0 50%;
     font-size: 1.8rem;
     line-height: 2.8rem;
-    color: $color_4;
+    color: $font-color;
     font-weight: 700;
     max-width: 55rem;
     margin-top: 1.5rem;
   }
 }
 .success {
-  background: var(--bg-lightgrey);
+  background: $bg-grey;
   .success-tittle {
     display: flex;
     flex-wrap: wrap;
@@ -211,14 +189,14 @@ $background-color_5: $bg-red;
       font-size: 3.6rem;
       font-weight: 700;
       line-height: 7rem;
-      color: $color_3;
+      color: $heading-color;
       margin-top: 3rem;
     }
     .counter-text {
       font-size: 2rem;
       line-height: 3rem;
       text-transform: capitalize;
-      color: $color_4;
+      color: $font-color;
       margin-top: 1rem;
       padding: 0 2rem;
     }
@@ -229,7 +207,7 @@ $background-color_5: $bg-red;
     text-transform: uppercase;
     line-height: 3rem;
     letter-spacing: 0.1rem;
-    color: $color_5;
+    color: $medium-grey-color;
   }
   .huge-tittle {
     font-size: 4rem;
@@ -246,11 +224,11 @@ $background-color_5: $bg-red;
     }
     margin-bottom: 2.5rem;
     .progress-bar {
-      background-color: $background-color_4;
+      background-color: $bg-grey;
       border-radius: 0.4rem;
       height: 0.6rem;
       .striped {
-        background-color: $background-color_5;
+        background-color: $bg-red;
         height: 100%;
         width: 0;
         transition: width 0.3s;
@@ -271,12 +249,12 @@ $background-color_5: $bg-red;
     font-size: 4rem;
     line-height: 5.5rem;
     font-weight: 700;
-    color: $color_6;
+    color: $white-color;
     margin: auto;
   }
   p {
     font-size: 2rem;
-    color: $color_6;
+    color: $white-color;
     line-height: 3rem;
     max-width: 80rem;
     margin: auto;
@@ -290,7 +268,7 @@ $background-color_5: $bg-red;
       font-size: 14px;
       line-height: 30px;
       letter-spacing: 1px;
-      color: $color_5;
+      color: $medium-grey-color;
     }
     h3 {
       font-size: 36px;
@@ -310,6 +288,12 @@ $background-color_5: $bg-red;
     }
   }
 }
+
+.testimonials {
+  text-align: center;
+  font-size: 2rem;
+}
+
 .testimonials {
   .container {
     .testimonials-img {
@@ -331,7 +315,7 @@ $background-color_5: $bg-red;
     font-size: 20px;
   }
   p {
-    color: $color_7;
+    color: $boulder-color;
     font-size: 17px;
     font-style: normal;
     margin-bottom: 0;

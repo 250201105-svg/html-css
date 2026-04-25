@@ -21,18 +21,67 @@ $secondary-color: #e71d36;
 $primary-dark: #011627;
 $font-family_1: "Assistant", sans-serif;
 
-// TODO
-$color_1: var(--font-color);
+:root {
+  --primary-color: #{$primary-color};
+  --white-color: #{$white-color};
+  --grey-color: #{$grey-color};
+  --medium-grey-color: #{$medium-grey-color};
+  --peach-color: #{$peach-color};
+  --boulder-color: #{$boulder-color};
+  --midnight-color: #{$midnight-color};
+  --nav-color: #{$nav-color};
+  --border-radius: #{$border-radius};
+  --border-radius-lg: #{$border-radius-lg};
+  --border-radius-full: #{$border-radius-full};
+  --border-color: #{$border-color};
+  --bg-color: #{$bg-color};
+  --bg-grey: #{$bg-grey};
+  --bg-red: #{$bg-red};
+  --bg-dark: #{$bg-dark};
+  --heading-color: #{$heading-color};
+  --font-color: #{$font-color};
+  --secondary-color: #{$secondary-color};
+  --primary-dark: #{$primary-dark};
+}
+
+html[data-theme="dark"] {
+  --font-color: #b7b7b7;
+  --bg-color: #131617;
+  --bg-grey: #0b0d0e;
+  --heading-color: #fdfffc;
+  --border-color: rgba(255, 255, 255, 0.2);
+  --primary-dark: #00070c;
+}
+
+$primary-color: var(--primary-color);
+$white-color: var(--white-color);
+$grey-color: var(--grey-color);
+$medium-grey-color: var(--medium-grey-color);
+$peach-color: var(--peach-color);
+$boulder-color: var(--boulder-color);
+$midnight-color: var(--midnight-color);
+$nav-color: var(--nav-color);
+$border-radius: var(--border-radius);
+$border-radius-lg: var(--border-radius-lg);
+$border-radius-full: var(--border-radius-full);
+$border-color: var(--border-color);
+$bg-color: var(--bg-color);
+$bg-grey: var(--bg-grey);
+$bg-red: var(--bg-red);
+$bg-dark: var(--bg-dark);
 $heading-color: var(--heading-color);
-$color_3: #696687;
+$font-color: var(--font-color);
+$secondary-color: var(--secondary-color);
+$primary-dark: var(--primary-dark);
+$color_1: var(--font-color);
+$color_3: var(--font-color);
 $color_4: var(--primary-color);
 $color_5: var(--white-color);
 $color_6: var(--bg-color);
-$color_7: #7e7d7d;
+$color_7: var(--medium-grey-color);
 $color_8: #999;
-$color_9: #fff;
-$color_10: #7f8a94;
-$nav-color: var(--primary-color);
+$color_9: var(--white-color);
+$color_10: var(--grey-color);
 
 //GUTTER
 $bs-gutter-x: 1.5rem;

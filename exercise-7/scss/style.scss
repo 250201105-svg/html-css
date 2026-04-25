@@ -124,6 +124,13 @@ input {
   border: 0.1rem solid $border-color;
   background: none;
 }
+.banner-base {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 28rem;
+  position: relative;
+}
 .button {
   display: inline-block;
   font-size: 1.8rem;
@@ -177,6 +184,7 @@ input {
     color: $color_5 !important;
   }
 }
+
 .testimonials {
   text-align: center;
   font-size: 2rem;

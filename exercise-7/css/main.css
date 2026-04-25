@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { font-size: 10px; }
+
+body { font-family: "Assistant", sans-serif; color: var(--font-color); background: #fff; }
+
+.row { margin-right: calc(-1 * $bs-gutter-x); margin-left: calc(-1 * $bs-gutter-x); }
+.row > * { padding-right: 1.5rem; padding-left: 1.5rem; }
+
+.container { padding-right: 1.5rem; padding-left: 1.5rem; }
+
+.footer { background: #011627; }
+.footer .footer-title { font-size: 3rem; font-weight: 700; text-transform: capitalize; color: #fff; padding: 0; font-size: 2.2rem; line-height: 2.8rem; font-weight: 700; position: relative; color: #fff; }
+.footer p { font-size: 1.7rem; line-height: 2.6rem; color: #7f8a94; }
+.footer .footer-item ul { padding-left: 0; padding-bottom: 1rem; }
+.footer .footer-item ul li { margin-bottom: 1rem; }
+.footer .footer-item ul li a { list-style: none; font-size: 1.7rem; line-height: 2.6rem; color: #7f8a94; }
+.footer .footer-item ul li a:hover { color: var(--primary-color); }
+.footer .footer-item ul li:last-child { padding-bottom: 0; }
+.footer .footer-item .fa { width: 25px; }
+
+/*# sourceMappingURL=main.css.map */

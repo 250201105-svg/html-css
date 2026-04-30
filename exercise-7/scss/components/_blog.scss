@@ -4,7 +4,7 @@
       display: grid;
       font-size: 16px;
       line-height: 25px;
-      color: $color_8;
+      color: $boulder-color;
       text-transform: uppercase;
       font-weight: normal;
     }
@@ -13,7 +13,7 @@
       font-size: 2.4rem;
       line-height: 3rem;
       font-weight: 700;
-      color: $color_5;
+      color: $white-color;
       margin-top: 2rem;
       margin-bottom: 1.5rem;
       transition: 0.3s ease;
@@ -34,11 +34,11 @@
       display: inline-block;
       text-transform: capitalize;
       &:hover {
-        color: $color_4;
+        color: $primary-color;
       }
     }
     .blog-icon {
-      color: $color_4;
+      color: $primary-color;
       font-size: 1.6rem;
     }
   }

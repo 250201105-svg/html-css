@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: $font-family_1;
-  color: $color_1;
+  color: $font-color;
   background: $bg-color;
 }
 
@@ -23,7 +23,7 @@ ul {
 }
 
 a {
-  color: $color_1;
+  color: $font-color;
   text-decoration: none;
   outline: none;
 }
